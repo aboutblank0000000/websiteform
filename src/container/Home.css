@@ -1,0 +1,14 @@
+.gameform{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    width: 300px;
+    color: rgb(0, 181, 241);
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
