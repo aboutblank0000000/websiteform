@@ -4,10 +4,8 @@ import { AuthProvider } from "./auth";
  import {MainLogin} from "./container/Login"
  import Signup from "./component/Signup"
  import Home from "./container/Home"
- import Lobby from "./component/lobby";
- import Join from "./component/join"
-import AnonymousTest from "./AnonymousTest";
-import Username from "./component/Username";
+import Page from "./component/Page";
+
 function App() {
  
   return (
@@ -16,6 +14,7 @@ function App() {
           <Route path="/*" element={<Home/>} />
           <Route path="/registration" element={<MainLogin/>} />
           <Route path="/registration/signup" element={<Signup/>} />
+          <Route path="/Page" element={<Page/>} />
 
         </Routes>
     </AuthProvider>

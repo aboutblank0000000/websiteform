@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
         console.log(user)
         setCurrentUser(user);
         if(user){
-          navigate('/Game')
+          navigate('/Page')
         }
         setLoading(false);
       });
