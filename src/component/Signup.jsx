@@ -51,7 +51,7 @@ const Signup = () => {
         .then(async (usercred) => {
           const user = usercred.user;
           console.log("Anonymous account successfully upgraded", user);
-          navigate("/Game");
+          navigate("/Page");
           await updateDoc(doc(db, "User", currentUser.currentUser.uid), {
             //create collection that have login
             ...userInfo,

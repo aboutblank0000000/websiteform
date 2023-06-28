@@ -14,7 +14,7 @@ const GoogleLogin = () => {
         const token = credential.accessToken;
         // The signed-in user info.
         const user = result.user;
-        navigate("/Game")
+        navigate("/Page")
       })
       .catch((error) => {
         // Handle Errors here.
